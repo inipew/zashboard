@@ -4,6 +4,7 @@ import { language } from '@/store/settings'
 import { activeBackend } from '@/store/setup'
 import ConnectionsPage from '@/views/ConnectionsPage.vue'
 import LogsPage from '@/views/LogsPage.vue'
+import ProfilePage from '@/views/ProfilePage.vue'
 import ProxiesPage from '@/views/ProxiesPage.vue'
 import RulesPage from '@/views/RulesPage.vue'
 import SettingsPage from '@/views/SettingsPage.vue'
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/settings',
       name: ROUTE_NAME.settings,
       component: SettingsPage,
+    },
+    {
+      path: '/profile',
+      name: ROUTE_NAME.profile,
+      component: ProfilePage,
     },
     {
       path: '/:catchAll(.*)',
