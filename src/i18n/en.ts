@@ -94,4 +94,8 @@ export default {
   statistics: 'Statistics',
   unauthorizedTip: 'Unauthorized, please login again.',
   restartCore: 'Restart Core',
+  profile: 'Profile',
+  updateProfile: 'Update Profile',
+  start: 'Start',
+  stop: 'Stop',
 }

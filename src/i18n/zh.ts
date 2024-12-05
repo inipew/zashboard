@@ -93,4 +93,8 @@ export default {
   statistics: '统计',
   unauthorizedTip: '未授权，请重新登录',
   restartCore: '重启核心',
+  profile: '配置文件',
+  updateProfile: '更新配置文件',
+  start: '启动',
+  stop: '停止',
 }
