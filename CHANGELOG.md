@@ -2,6 +2,18 @@
 
 # Changelog
 
+## [1.48.0](https://github.com/Zephyruso/zashboard/compare/v1.47.0...v1.48.0) (2025-01-07)
+
+
+### Features
+
+* btm-nav for mobile ([57b6f21](https://github.com/Zephyruso/zashboard/commit/57b6f21eccc3d4beae8b9f4218364f0c404c64f2))
+
+
+### Bug Fixes
+
+* transparent & network type ([dec2173](https://github.com/Zephyruso/zashboard/commit/dec21733eb18510c0e68adf623a28aec75241848))
+
 ## [1.47.0](https://github.com/Zephyruso/zashboard/compare/v1.46.2...v1.47.0) (2025-01-07)
 
 
