@@ -10,15 +10,17 @@
     </div>
   </template>
   <template v-else>
-    <VirtualScroller :data="renderRules">
-      <template v-slot="{ item: rule }: { item: Rule }">
-        <RuleCard
-          :key="rule.payload"
-          :rule="rule"
-          :index="rules.indexOf(rule) + 1"
-        />
-      </template>
-    </VirtualScroller>
+    <div>
+      <VirtualScroller :data="renderRules">
+        <template v-slot="{ item: rule }: { item: Rule }">
+          <RuleCard
+            :key="rule.payload"
+            :rule="rule"
+            :index="rules.indexOf(rule) + 1"
+          />
+        </template>
+      </VirtualScroller>
+    </div>
   </template>
 </template>
 
